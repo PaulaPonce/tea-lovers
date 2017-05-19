@@ -12,7 +12,6 @@ Código Hexadecimal gris footer: #3B3B3B
 }
 
 /*Sección bienvenida*/
-
 #bienvenida{
 	background: url("../img/fondo-bienvenida.jpg");
 	background-size: cover;
@@ -42,7 +41,7 @@ Código Hexadecimal gris footer: #3B3B3B
 
 .newsletter button{
 	color: white;
-	background-color: #8EC641;
+	background-color: #73AC25;
 	padding: 20px;
 	border: 5px solid white;
 	border-radius: 5px;
@@ -52,7 +51,6 @@ Código Hexadecimal gris footer: #3B3B3B
 }
 
 /*Sección about*/
-
 #about{
 	background: url("../img/fondo-about.jpg");
 	background-size: cover;
@@ -86,6 +84,7 @@ Código Hexadecimal gris footer: #3B3B3B
 	border: 5px solid white;
 	margin: 30px 0;
 	padding: 20px;
+	background-color: #71B21B;
 }
 
 .tipo-de-te h2{
@@ -93,7 +92,6 @@ Código Hexadecimal gris footer: #3B3B3B
 }
 
 /*Disfruta*/
-
 #disfruta{
 	background: url("../img/disfruta.jpg");
 	background-size: cover;
@@ -106,4 +104,33 @@ footer{
 	background-color: #3B3B3B;
 	padding: 20px 30px;
 	color: white;
+}
+
+/*Formulario*/
+.form-container{
+	color: white;
+	text-align: center;
+	
+	padding-top: 50px;
+    vertical-align: middle;
+}
+
+.form-container .suscripcion h2{
+	font-size: 60px;
+	padding: 20px 0;
+}
+
+.input-box input, .input-box select{
+	border-radius: 10px;
+	width: 300px;
+}
+
+.input-box label{
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 5px; 
+}
+
+.checkbox{
+	padding-top: 20px; 
 }
